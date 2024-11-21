@@ -1,0 +1,52 @@
+/* styles/Home.module.css */
+
+.container {
+  display: center;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+.box {
+  width: 65%;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+}
+
+.box2 {
+  background-color: #e7e7e7;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
